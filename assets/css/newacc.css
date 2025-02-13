@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #f0f2f5;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.page {
+  display: flex;
+  width: 100%;
+  height: 580px;
+  justify-content: center;
+}
+.form {
+  width: 33%;
+}
+.form h1 {
+  font-size: 55px;
+  color: #0866ff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+.form h1:hover{
+  color: #235ab3;
+  transition: .5s;
+}
+.main {
+  height: 100%;
+  padding: 2px 20px;
+  border-radius: 10px;
+  box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1),
+    10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.top {
+  text-align: center;
+  padding: 8px 0;
+}
+.top h2 {
+  font-size: 25px;
+}
+.top p {
+  font-size: 15px;
+  padding: 3px 0;
+  color: rgb(107, 103, 98);
+}
+.top hr {
+  margin: 8px 0;
+  color: lightcyan;
+}
+
+/* Form Fill up */
+
+.names input {
+  width: 184px;
+  margin-left: 3px;
+  padding: 9px 5px;
+  border: 1px solid rgb(107, 103, 98);
+  font-size: 15px;
+}
+
+/* Date of Birth */
+.dob {
+  margin-top: 10px;
+}
+.dob p {
+  font-size: 12px;
+  color: rgb(107, 103, 98);
+  padding: 5px 0;
+}
+.dob input {
+  width: 175px;
+  margin-left: 3px;
+  padding: 9px 5px;
+  border: 1px solid rgb(107, 103, 98);
+  font-size: 15px;
+}
+
+/* Gender */
+.gender {
+  margin-top: 10px;
+}
+.gender p {
+  font-size: 12px;
+  color: rgb(107, 103, 98);
+  padding: 5px 0;
+}
+.you {
+  display: flex;
+  justify-content: space-between;
+}
+.gender .you div {
+  width: 115px;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 5px;
+  border: 1px solid rgb(107, 103, 98);
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+/* E-Mail and New Password */
+.emailsec {
+  margin-top: 10px;
+}
+.emailsec p {
+  font-size: 12px;
+  color: rgb(107, 103, 98);
+  padding: 5px 0;
+}
+.emailsec input {
+  width: 97%;
+  margin: 4px 0;
+  padding: 9px 5px;
+  border: 1px solid rgb(107, 103, 98);
+  font-size: 15px;
+}
+/* Privicy Policy Text */
+.last p {
+  font-size: 11px;
+  margin: 17px 0;
+  color: rgb(107, 103, 98);
+}
+
+/* Button */
+#signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #42b72a;
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 11px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+#signup:hover {
+  background-color: #3ba725;
+  transition: 0.3s;
+}
+#signup a{
+    text-decoration: underline;
+}
+#already{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover {
+  color: #0866ff;
+  transition: 0.3s;
+}
